@@ -187,89 +187,106 @@
               <div class="col-md-6 col-sm-12 col-lg-6">
                 <h3>One-time Donation</h3>
                 <button
-                        class="btn btn-info btn-block"
+                        class="btn btn-info btn-block preset"
                         data-checkout-mode="payment"
                         data-price-id="price_1HpPPMFEZhRaTFJzFU4iNYkr"
                 >
                   <span class="fa fa-heart"></span> Donate $1.00 once
                 </button>
                 <button
-                        class="btn btn-info btn-block"
+                        class="btn btn-info btn-block preset"
                         data-checkout-mode="payment"
                         data-price-id="price_1HpPPMFEZhRaTFJzC31ZSDq5"
                 >
                   <span class="fa fa-heart"></span> Donate $5.00 once
                 </button>
                 <button
-                        class="btn btn-info btn-block"
+                        class="btn btn-info btn-block preset"
                         data-checkout-mode="payment"
                         data-price-id="price_1HpPPMFEZhRaTFJzfdOIQ5vn"
                 >
                   <span class="fa fa-heart"></span> Donate $10.00 once
                 </button>
                 <button
-                        class="btn btn-info btn-block"
+                        class="btn btn-info btn-block preset"
                         data-checkout-mode="payment"
                         data-price-id="price_1HpPPMFEZhRaTFJzM7tRzI3H">
                   <span class="fa fa-heart"></span> Donate $15.00 once
                 </button>
                 <button
-                        class="btn btn-info btn-block"
+                        class="btn btn-info btn-block preset"
                         data-checkout-mode="payment"
                         data-price-id="price_1HpPPMFEZhRaTFJzyZNgQI5S">
                   <span class="fa fa-heart"></span> Donate $20.00 once
                 </button>
                 <button
-                        class="btn btn-info btn-block"
+                        class="btn btn-info btn-block preset"
                         data-checkout-mode="payment"
                         data-price-id="price_1HpPPNFEZhRaTFJzg4V8UOoN">
                   <span class="fa fa-heart"></span> Donate $25.00 once
                 </button>
                 <button
-                        class="btn btn-info btn-block"
+                        class="btn btn-info btn-block preset"
                         data-checkout-mode="payment"
                         data-price-id="price_1HpPPMFEZhRaTFJzWsAKqhZ4">
                   <span class="fa fa-heart"></span> Donate $50.00 once
                 </button>
                 <button
-                        class="btn btn-info btn-block"
+                        class="btn btn-info btn-block preset"
                         data-checkout-mode="payment"
                         data-price-id="price_1HpPPMFEZhRaTFJzim2uArEF">
                   <span class="fa fa-heart"></span> Donate $100.00 once
                 </button>
+                  <form onsubmit="processCustomDonation()" action="#">
+                      <div class="form-row align-items-center">
+                          <div class="col-sm-8 col-md-8 col-lg-8 col-xs-12">
+                              <label class="sr-only" for="customAmount">Amount</label>
+                              <div class="input-group">
+                                  <div class="input-group-prepend">
+                                      <div class="input-group-text">$</div>
+                                  </div>
+                                  <input type="number" class="form-control" id="customAmount" placeholder="Amount">
+                              </div>
+                          </div>
+                          <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 my-2">
+                              <button type="submit" class="btn btn-primary"><span class="fa fa-money"></span> Donate</button>
+                          </div>
+                      </div>
+                  </form>
+
               </div>
               <div class="col-md-6 col-sm-12 col-lg-6">
                 <h3>Recurring Monthly Donation</h3>
                 <button
-                        class="btn btn-dark btn-block"
+                        class="btn btn-dark btn-block preset"
                         data-checkout-mode="subscription"
                         data-price-id="price_1HpPYGFEZhRaTFJzyN2wXgsW"
                 >
                   <span class="fa fa-heart"></span> Donate $1.00 every month
                 </button>
                 <button
-                        class="btn btn-dark btn-block"
+                        class="btn btn-dark btn-block preset"
                         data-checkout-mode="subscription"
                         data-price-id="price_1HpPYGFEZhRaTFJziYhKlFuQ"
                 >
                   <span class="fa fa-heart"></span> Donate $5.00 every month
                 </button>
                 <button
-                        class="btn btn-dark btn-block"
+                        class="btn btn-dark btn-block preset"
                         data-checkout-mode="subscription"
                         data-price-id="price_1HpPYGFEZhRaTFJzlykP1x2P"
                 >
                   <span class="fa fa-heart"></span> Donate $10.00 every month
                 </button>
                 <button
-                        class="btn btn-dark btn-block"
+                        class="btn btn-dark btn-block preset"
                         data-checkout-mode="subscription"
                         data-price-id="price_1HpPYGFEZhRaTFJz2VcHzm1k"
                 >
                   <span class="fa fa-heart"></span> Donate $25.00 every month
                 </button>
                 <button
-                        class="btn btn-dark btn-block"
+                        class="btn btn-dark btn-block preset"
                         data-checkout-mode="subscription"
                         data-price-id="price_1HpPYGFEZhRaTFJzJlt2IIsv"
                 >
