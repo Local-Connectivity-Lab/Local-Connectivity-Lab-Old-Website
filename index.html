@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="images/favicon.png" type="image/png" />
+  <meta name="keywords" content="Local Connectivity Lab, Seattle Community Networks, LCL, Seattle Community Network, Community Cellular" />
+  <meta name="description" content="" />
+  <meta name="author" content="Local Connectivity Lab" />
+
+  <title>Local Connectivity Lab</title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <!-- Load Stripe.js on your website. -->
+  <script src="https://js.stripe.com/v3/"></script>
+</head>
+
+<body>
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="/">
+            <span>Local Connectivity Lab</span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About Us<span></span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="detail-box">
+                    <h1>
+                      Seattle Community Cellular Network
+                    </h1>
+                    <p>
+                      The Local Connectivity Lab (LCL) is a 501(c)(3) registered non-profit in partnership with the University of Washington (UW) to share free or low-cost broadband access in higher-need areas throughout the city, making use of existing UW and city network infrastructure such as buildings and fiber-optic cables to extend coverage to more people.
+                    </p>
+                    <div class="btn-box">
+                      <a href="https://medium.com/uw-ictd/community-networks-in-seattle-a-call-to-action-b11e944d0a19" target="_blank" class="btn-1">
+                        <span class="fa fa-book"></span> Learn More
+                      </a>
+                      <a href="https://join.slack.com/t/seattlecommunitynet/shared_invite/zt-j18qv4cm-DnhaosV7uK0cHmmtljnB2w" target="_blank" class="btn-2">
+                        <span class="fa fa-slack"></span> Get Involved
+                      </a>
+                      <a href="https://groups.google.com/a/seattlecommunitynetwork.org/g/local-connectivity-lab/" class="btn-3">
+                        <span class="fa fa-envelope"></span> Join Mailing List
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class=" col-lg-10 mx-auto">
+                      <div class="img-box">
+                        <img src="images/lcl-purple-gold-uw.png" alt="Local Connectivity Lab Logo">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding-bottom" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                About Us
+              </h2>
+            </div>
+            <p>
+              The mission of the Local Connectivity Lab (LCL) is <strong>to facilitate community focused technology development and research in support of low-income, marginalized populations and groups.</strong> LCL is a non-profit that aims to work with communities to build sustainable community relations and to provide Internet to community via community networks maintained by the communities they serve, disconnected from for-profit corporations like Comcast and Century Link.
+            </p>
+            <a href="https://medium.com/uw-ictd/community-networks-in-seattle-a-call-to-action-b11e944d0a19" target="_blank">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="images/about-img.png" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+
+  <!-- server section -->
+
+  <section class="server_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Our Partners</h2>
+        </div>
+        <div class="col-md-8">
+          <div class="detail-box">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="images/tcn.png" alt="Tacoma Cooperative Network Logo">
+                </div>
+                <div class="col-md-4">
+                  <img src="images/althea.png" alt="Althea Network Logo">
+                </div>
+                <div class="col-md-4">
+                  <img src="images/uw.png" alt="University of Washington Logo">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end server section -->
+
+  <!-- price section -->
+
+  <section class="price_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Donate To Support our Mission
+        </h2>
+      </div>
+      <div class="price_container ">
+          <section class="container">
+            <div class="row">
+              <div class="col-md-6 col-sm-12 col-lg-6">
+                <h3>One-time Donation</h3>
+                <button
+                        class="btn btn-info btn-block"
+                        data-checkout-mode="payment"
+                        data-price-id="price_1HpPPMFEZhRaTFJzFU4iNYkr"
+                >
+                  <span class="fa fa-heart"></span> Donate $1.00 once
+                </button>
+                <button
+                        class="btn btn-info btn-block"
+                        data-checkout-mode="payment"
+                        data-price-id="price_1HpPPMFEZhRaTFJzC31ZSDq5"
+                >
+                  <span class="fa fa-heart"></span> Donate $5.00 once
+                </button>
+                <button
+                        class="btn btn-info btn-block"
+                        data-checkout-mode="payment"
+                        data-price-id="price_1HpPPMFEZhRaTFJzfdOIQ5vn"
+                >
+                  <span class="fa fa-heart"></span> Donate $10.00 once
+                </button>
+                <button
+                        class="btn btn-info btn-block"
+                        data-checkout-mode="payment"
+                        data-price-id="price_1HpPPMFEZhRaTFJzM7tRzI3H">
+                  <span class="fa fa-heart"></span> Donate $15.00 once
+                </button>
+                <button
+                        class="btn btn-info btn-block"
+                        data-checkout-mode="payment"
+                        data-price-id="price_1HpPPMFEZhRaTFJzyZNgQI5S">
+                  <span class="fa fa-heart"></span> Donate $20.00 once
+                </button>
+                <button
+                        class="btn btn-info btn-block"
+                        data-checkout-mode="payment"
+                        data-price-id="price_1HpPPNFEZhRaTFJzg4V8UOoN">
+                  <span class="fa fa-heart"></span> Donate $25.00 once
+                </button>
+                <button
+                        class="btn btn-info btn-block"
+                        data-checkout-mode="payment"
+                        data-price-id="price_1HpPPMFEZhRaTFJzWsAKqhZ4">
+                  <span class="fa fa-heart"></span> Donate $50.00 once
+                </button>
+                <button
+                        class="btn btn-info btn-block"
+                        data-checkout-mode="payment"
+                        data-price-id="price_1HpPPMFEZhRaTFJzim2uArEF">
+                  <span class="fa fa-heart"></span> Donate $100.00 once
+                </button>
+              </div>
+              <div class="col-md-6 col-sm-12 col-lg-6">
+                <h3>Recurring Monthly Donation</h3>
+                <button
+                        class="btn btn-dark btn-block"
+                        data-checkout-mode="subscription"
+                        data-price-id="price_1HpPYGFEZhRaTFJzyN2wXgsW"
+                >
+                  <span class="fa fa-heart"></span> Donate $1.00 every month
+                </button>
+                <button
+                        class="btn btn-dark btn-block"
+                        data-checkout-mode="subscription"
+                        data-price-id="price_1HpPYGFEZhRaTFJziYhKlFuQ"
+                >
+                  <span class="fa fa-heart"></span> Donate $5.00 every month
+                </button>
+                <button
+                        class="btn btn-dark btn-block"
+                        data-checkout-mode="subscription"
+                        data-price-id="price_1HpPYGFEZhRaTFJzlykP1x2P"
+                >
+                  <span class="fa fa-heart"></span> Donate $10.00 every month
+                </button>
+                <button
+                        class="btn btn-dark btn-block"
+                        data-checkout-mode="subscription"
+                        data-price-id="price_1HpPYGFEZhRaTFJz2VcHzm1k"
+                >
+                  <span class="fa fa-heart"></span> Donate $25.00 every month
+                </button>
+                <button
+                        class="btn btn-dark btn-block"
+                        data-checkout-mode="subscription"
+                        data-price-id="price_1HpPYGFEZhRaTFJzJlt2IIsv"
+                >
+                  <span class="fa fa-heart"></span> Donate $50.00 every month
+                </button>
+              </div>
+            </div>
+          </section>
+        <div id="error-message"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- price section -->
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="info_contact">
+            <h4>
+              Address
+            </h4>
+            <div class="contact_link_box">
+              <a href="https://goo.gl/maps/2vXDA3oiGysCFgwK8" target="_blank">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  3800 E Stevens Way NE, Seattle, WA 98195
+                </span>
+              </a>
+              <a href="emailto:lcl@seattlecommunitynetwork.org">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  lcl@seattlecommunitynetwork.org
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="info_social">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_detail">
+            <h4>
+              Mission
+            </h4>
+            <p>
+              To facilitate community focused technology development and research in support of low-income, marginalized populations and groups.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 mb-0">
+          <form action="https://groups.google.com/a/seattlecommunitynetwork.org/g/local-connectivity-lab/">
+            <button type="submit">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+
+  <!-- footer section -->
+  <footer class="footer_section">
+
+  </footer>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+
+  <script src="js/donate.js"></script>
+
+</body>
+
+</html>
