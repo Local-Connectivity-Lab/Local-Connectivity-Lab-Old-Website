@@ -1,5 +1,5 @@
 // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
-var PUBLISHABLE_KEY = 'pk_test_51HoeyEFEZhRaTFJzSPYVszW1PKEZUfFL6jwEjjsoya2ZlGAi6rmBRlDcP4eUZ3761XawDVollCX60y9nP6AiPgNh00hehVLUVE';
+var PUBLISHABLE_KEY = 'pk_live_51HoeyEFEZhRaTFJzOCxa0uXvDUGwTwmBaB2E65NYgpoM9axZq8T81a7xkGJzWgjM1QTpBOadDN9I1CWZmzViFEcO00IBDLBqFv';
 // Replace with the domain you want your users to be redirected back to after payment
 var DOMAIN = location.href.replace(/[^/]*$/, '');
 
@@ -12,14 +12,14 @@ if (PUBLISHABLE_KEY === 'pk_test_Tr8olTkdFnnJVywwhNPHwnHK00HkHV4tnP') {
 var stripe = Stripe(PUBLISHABLE_KEY);
 
 var donationProductMap = {};
-donationProductMap[1] = "price_1HpPPMFEZhRaTFJzFU4iNYkr";
-donationProductMap[5] = "price_1HpPPMFEZhRaTFJzC31ZSDq5";
-donationProductMap[10] = "price_1HpPPMFEZhRaTFJzfdOIQ5vn";
-donationProductMap[15] = "price_1HpPPMFEZhRaTFJzM7tRzI3H";
-donationProductMap[20] = "price_1HpPPMFEZhRaTFJzyZNgQI5S";
-donationProductMap[25] = "price_1HpPPNFEZhRaTFJzg4V8UOoN";
-donationProductMap[50] = "price_1HpPPMFEZhRaTFJzWsAKqhZ4";
-donationProductMap[100] = "price_1HpPPMFEZhRaTFJzim2uArEF";
+donationProductMap[1] = "price_1Hv71qFEZhRaTFJzWRWcONYf";
+donationProductMap[5] = "price_1Hv71qFEZhRaTFJz0IYW1aew";
+donationProductMap[10] = "price_1Hv71qFEZhRaTFJzsur61ZhS";
+donationProductMap[15] = "price_1Hv71rFEZhRaTFJzWPpeXWYM";
+donationProductMap[20] = "price_1Hv71rFEZhRaTFJzCL2Bn1AB";
+donationProductMap[25] = "price_1Hv71rFEZhRaTFJzE3hKot7F";
+donationProductMap[50] = "price_1Hv71rFEZhRaTFJz0ivzZBtj";
+donationProductMap[100] = "price_1Hv71rFEZhRaTFJzQZdLel5i";
 
 // Handle any errors from Checkout
 var handleResult = function (result) {
