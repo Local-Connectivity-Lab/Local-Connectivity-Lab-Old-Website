@@ -31,6 +31,11 @@
   <link href="css/responsive.css" rel="stylesheet" />
   <!-- Load Stripe.js on your website. -->
   <script src="https://js.stripe.com/v3/"></script>
+  <style>
+    .row.donation {
+      margin: 20px 0px 20px 0px;
+    }
+  </style>
 </head>
 
 <body>
@@ -183,7 +188,7 @@
       </div>
       <div class="price_container ">
           <section class="container">
-            <div class="row">
+            <div class="row donation">
               <div class="col-md-6 col-sm-12 col-lg-6">
                 <h3>One-time Donation</h3>
                 <button
@@ -293,6 +298,22 @@
                   <span class="fa fa-heart"></span> Donate $50.00 every month
                 </button>
               </div>
+            </div>
+            <div class="row donation">
+              <div class="col-md-6 col-sm-12 col-lg-6 offset-md-3 offset-lg-3">
+                <form action="https://www.paypal.com/donate" method="post" target="_top">
+                  <h3>Donate with Paypal</h3>
+                  <p>All donations are made to Esther Jang at <code>lcl@seattlecommunitynetwork.org</code></p>
+                  <input type="hidden" name="business" value="lcl@seattlecommunitynetwork.org" />
+                  <input type="hidden" name="item_name" value="Donations / Fundraising" />
+                  <input type="hidden" name="currency_code" value="USD" />
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                  <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                </form>
+              </div>
+            </div>
+            <div class="row donation alert alert-warning">
+              <p><i class="fa fa-email"></i> Please <a href="mailto:lcl@seattlecommunitynetwork.org">email us</a> for donation questions or changes to your subscription. All donations will go towards our expenses and are tax deductible. LCL is a 501(c)(3) non-profit organization.</p> 
             </div>
           </section>
         <div id="error-message"></div>
