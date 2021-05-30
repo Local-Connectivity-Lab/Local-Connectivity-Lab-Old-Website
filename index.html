@@ -315,19 +315,18 @@
                 </form>
               </div>
             </div>
-            <div id="overlay" onclick="off(event)" onload="on()">
+            <div id="overlay" onclick="off(event)">
               <div id="container">
                 <p id="title">Manage Your Donations</p>
                 <p id="explanation">Please enter the email address and the last 4 digit of your payment method when donate. You will be directed to a Stripe-hosted website to manage your recurring donations.</p>
-                  <form id="form">
+                  <form name="donation_form" id="form" method="POST">
                     <div class="form-group">
                       <label for="email">Email</label>
-                      <input class="form-control" type="email" name="email" placeholder="Your Email Address" value="">
+                      <input class="form-control" type="email" name="email" placeholder="Your Email Address" required>
                     </div>
-                    
                     <div class="form-group">
                       <label for="last_4">Last 4 digits of your donation payment method</label>
-                      <input class="form-control" type="password" name="last_4" placeholder="Last 4 digits of your donation payment method" value="">
+                      <input class="form-control" type="password" name="last_4" placeholder="Last 4 digits of your donation payment method" required pattern="[0-9]{4}">
                     </div>
                     <table>
                       <tr>
