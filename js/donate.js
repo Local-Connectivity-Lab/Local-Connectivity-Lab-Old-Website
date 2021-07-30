@@ -106,16 +106,3 @@ function processCustomDonation() {
             .then(handleResult);
     }
 }
-
-// turn on overlay effect
-function on() {
-    document.getElementById("overlay").style.display = "block";
-}
-
-// turn off overlay effect
-function off(event) {
-    overlay_container = document.getElementById("container");
-    if (!overlay_container.contains(event.target)) {
-        document.getElementById("overlay").style.display = "none";
-    }
-}
