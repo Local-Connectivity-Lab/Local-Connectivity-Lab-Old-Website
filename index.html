@@ -62,6 +62,9 @@
                 <a href="#about" class="nav-link">About Us<span></span></a>
               </li>
               <li class="nav-item">
+                <a href="#donation" class="nav-link">Donate<span></span></a>
+              </li>
+              <li class="nav-item">
                 <a href="https://docs.seattlecommunitynetwork.org/" class="nav-link">Docs<span></span></a>
               </li>
             </ul>
@@ -228,7 +231,7 @@
 
   <!-- price section -->
 
-  <section class="price_section layout_padding">
+  <section class="price_section layout_padding" id="donation">
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
@@ -361,8 +364,30 @@
                 </form>
               </div>
             </div>
+            <div id="overlay" onclick="off(event)">
+              <div id="container">
+                <p id="title">Manage Your Donations</p>
+                <p id="explanation">Please enter the email address and the last 4 digit of your payment method when donate. You will be directed to a Stripe-hosted website to manage your recurring donations.</p>
+                  <form name="donation_form" id="form" method="POST">
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input class="form-control" type="email" name="email" placeholder="Your Email Address" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="last_4">Last 4 digits of your donation payment method</label>
+                      <input class="form-control" type="password" name="last_4" placeholder="Last 4 digits of your donation payment method" required pattern="[0-9]{4}">
+                    </div>
+                    <table>
+                      <tr>
+                        <td><input type="submit" name="donation_list" formaction="https://support.seattlecommunitynetwork.org/slackbot/donation_list" value="Check Past Donations"></td>
+                        <td><input type="submit" name="recurring_donation" formaction="https://support.seattlecommunitynetwork.org/slackbot/customer_portal" value="Manage Recurring Donations"></td>
+                      </tr>
+                    </table>
+                  </form>
+              </div>
+            </div>
             <div class="row donation alert alert-warning">
-              <p><i class="fa fa-email"></i> Please <a href="mailto:lcl@seattlecommunitynetwork.org">email us</a> for donation questions or changes to your subscription. All donations will go towards our expenses and are tax deductible. LCL is a 501(c)(3) non-profit organization.</p> 
+              <p><i class="fa fa-email"></i> Please click <a onclick="on()"><u>here</u> to check your donation details or make changes to your recurring donation. All donations will go towards our expenses and are tax deductible. LCL is a 501(c)(3) non-profit organization.</p> 
             </div>
           </section>
         <div id="error-message"></div>
@@ -444,6 +469,7 @@
 
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
+
   <!-- bootstrap js -->
   <script src="js/bootstrap.js"></script>
 
