@@ -8,6 +8,8 @@ It is deployed via GitHub Pages at local-connectivity-lab.github.io and is redir
 ## How to Contribute
 If you see any issues or possible improvements, here's how you can get that changed:
 
-Option 1: Create an "Issue" via the GitHub UI and describe the issue you see and what you'd like to see changed. Someone will review this and try to implement these changes if it makes sense.
+### Option 1
+Create an "Issue" via the GitHub UI and describe the issue you see and what you'd like to see changed. Someone will review this and try to implement these changes if it makes sense.
 
-Option 2: Create a "Fork" of this repository, make the changes you'd like on your own repository, and then create a "Pull request" to get it pulled into the main repository.
+### Option 2
+Create a "Fork" of this repository, make the changes you'd like on your own repository, and then create a "Pull request" to get it pulled into the main repository.
