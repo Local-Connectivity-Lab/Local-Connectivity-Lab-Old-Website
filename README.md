@@ -3,7 +3,7 @@
 This is the repository that contains the code for the Seattle Community Network website, currently hosted at: https://seattlecommunitynetwork.org/
 
 ## Deployment
-It is deployed via GitHub Pages at local-connectivity-lab.github.io and is redirected to seattlecommunitynetwork.org via the CNAME file.
+The website is deployed via GitHub Pages at [local-connectivity-lab.github.io](local-connectivity-lab.github.io) and is redirected to [seattlecommunitynetwork.org](seattlecommunitynetwork.org/) via the CNAME file.
 
 ## How to Contribute
 If you see any issues or possible improvements, here's how you can get that changed:
