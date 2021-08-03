@@ -17,6 +17,6 @@ Create a "Fork" of this repository, make the changes you'd like on your own repo
 ## Technologies Used
 Currently this website uses a minimal amount of technologies:
 - HTML
-- CSS
+- CSS + SASS/SCSS
 - Bootstrap
 - Javascript
