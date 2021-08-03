@@ -13,3 +13,10 @@ Create an "Issue" via the GitHub UI and describe the issue you see and what you'
 
 ### Option 2
 Create a "Fork" of this repository, make the changes you'd like on your own repository, and then create a "Pull request" to get it pulled into the main repository.
+
+## Technologies Used
+Currently this website uses a minimal amount of technologies:
+- HTML
+- CSS
+- Bootstrap
+- Javascript
