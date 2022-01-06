@@ -228,6 +228,17 @@ a:focus {
       .slider_section .detail-box .btn-3:hover {
         background-color: transparent;
         color: #B57DFF; }
+    .slider_section .detail-box .btn-4 {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #ff0099;
+      color: #ffffff;
+      border-radius: 5px;
+      border: 1px solid #ff0099;
+      transition: all .3s; }
+      .slider_section .detail-box .btn-4:hover {
+        background-color: transparent;
+        color: #ff0099; }
   .slider_section .img-box img {
     width: 100%; }
   .slider_section .carousel_btn-box {
@@ -273,6 +284,26 @@ a:focus {
   .about_section .detail-box a:hover {
     background-color: transparent;
     color: #ff4646; }
+
+.help_section .row {
+  align-items: center; }
+.help_section .img-box img {
+  max-width: 100%; }
+.help_section .detail-box p {
+  color: #999;
+  margin-top: 15px; }
+.help_section .detail-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #ff0099;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #ff0099;
+  transition: all .3s;
+  margin-top: 15px; }
+  .help_section .detail-box a:hover {
+    background-color: transparent;
+    color: #ff0099; }
 
 .service_section {
   position: relative; }
